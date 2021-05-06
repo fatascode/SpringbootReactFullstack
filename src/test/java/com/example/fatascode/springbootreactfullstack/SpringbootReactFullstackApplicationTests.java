@@ -9,7 +9,7 @@ class SpringbootReactFullstackApplicationTests {
 
     @Test
     void contextLoads() {
-
+        Assertions.fail("OOpps the test failed");
     }
 
 }
