@@ -32,4 +32,4 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
       - name: Maven Clean Package
-        run: chmod +x ./mvnw clean package -P build-frontend
+        run: ./mvnw clean package -P build-frontend
