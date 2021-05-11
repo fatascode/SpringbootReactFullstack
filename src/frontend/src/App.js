@@ -224,7 +224,7 @@ function App() {
           {renderStudents()}
         </div>
       </Content>
-      <Footer style={{textAlign: 'center'}}>by Fatascode</Footer>
+      <Footer style={{textAlign: 'center'}}>by Fatascode!</Footer>
     </Layout>
   </Layout>
 }
