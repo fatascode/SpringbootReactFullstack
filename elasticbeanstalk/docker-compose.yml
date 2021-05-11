@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "fatascode/springboot-react-fullstack:latest"
+    image: "fatascode/springboot-react-fullstack:11.5.2021.11.16.11"
     ports:
       - "80:8080"
     restart: "always"
