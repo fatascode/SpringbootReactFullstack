@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class StudentService {
 
-    private final studentRepository studentRepository;
+    private final StudentRepository studentRepository;
 
     public void deleteStudent(Long studentId) {
         if (!studentRepository.existsById((studentId))) {
